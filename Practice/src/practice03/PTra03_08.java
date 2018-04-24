@@ -35,6 +35,19 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		
+		if (num == 1) {
+			System.out.println("オレンジジュースを購入しました");
+			System.out.println("残金は"+(money - 150)+"円です");
+		} else if (num == 2) {
+			System.out.println("リンゴジュースを購入しました");
+			System.out.println("残金は"+(money - 160)+"円です");
+		} else if (num == 3) {
+			System.out.println("コーヒーを購入しました");
+			System.out.println("残金は"+(money - 200)+"円です");
+		} else {
+			System.out.println("不正な値が入力されました");
+		}
+	
 	}
 }
